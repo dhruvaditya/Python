@@ -25,6 +25,6 @@ while is_race:
                 print(f"You win! {winning_color} is the winner")
             else:
                 print(f"You Lost!{winning_color} is the winner")
-        rand_distance=random.randint(0,10)
+        rand_distance=random.randint(0,50)
         tur.forward(rand_distance)
 screen.exitonclick()
